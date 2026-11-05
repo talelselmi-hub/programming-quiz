@@ -8,3 +8,7 @@ A clean, responsive web application built with vanilla HTML, CSS, and JavaScript
 * **HTML5** - Structured game layout and semantic elements.
 * **CSS3** - Custom styling, Flexbox layouts, dark theme, and smooth UI transitions.
 * **JavaScript (ES6+)** - Dynamic DOM manipulation, array shuffling algorithms, score calculation, and review logic.
+
+* link:
+
+  👉 **[Try Live Demo](https://talelselmi-hub.github.io/programming-quiz/)** 
