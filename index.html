@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simple Quiz App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+
+  <<body>
+    <h2 class="qcm-title">QCM</h2>
+    <div class="quiz-container">
+        <!-- Écran d'accueil -->
+        <div id="home-screen">
+            <h1>Welcome to the Quiz!</h1>
+            <p id="home-desc">You have 10 questions about programming languages. Only one of the four answers is correct.</p>
+            <button id="start-btn" class="btn">Start Quiz</button>
+        </div>
+
+        <!-- Écran du Quiz (initialement caché) -->
+        <div id="quiz-screen" class="hidden">
+            <h1 id="question">Question text goes here</h1>
+            <div id="answer-buttons" class="btn-grid"></div>
+            <div class="footer">
+                <button id="next-btn" class="next-btn hidden">Next Question</button>
+                <p id="score-text" class="hidden"></p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
